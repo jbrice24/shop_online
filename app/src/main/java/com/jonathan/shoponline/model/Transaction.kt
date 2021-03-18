@@ -1,11 +1,11 @@
-package com.jonathan.shoponline.model
+    package com.jonathan.shoponline.model
 
 import com.jonathan.shoponline.data.enums.ResponseType
 import com.jonathan.shoponline.model.cards.ICard
 
 class Transaction {
 
-    var products: ArrayList<Product>? = null
+    var products: MutableList<Product>? = null
     var card: ICard? = null
     var responseType: ResponseType? = null
 
